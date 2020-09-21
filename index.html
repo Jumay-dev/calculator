@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <h1>Расчет стоимости услуг</h1>
+        <div id="calculator">
+            <div id="calculator--variables">
+                <h2>Выберите позицию и подтвердите выбор</h2>
+                <p id="position-name">Стелла</p>
+                <div id="type">
+                  
+                </div>
+                <div id="subtype">
+                    <button class="button active" disabled>Корка 80</button>
+                    <button class="button disable" disabled>Корка 90</button>
+                    <button class="button disable">Корка 100</button>
+                    <button class="button disable" disabled>Корка 110</button>
+                    <button class="button disable" disabled>Корка 120</button>                     
+                </div>
+                <button id="nextbutton">Подтвердить</button>
+
+            </div>
+            <div id="calculator--results">
+                <h2>Выбрано:</h2>
+                <div id="tree">
+                    <div class="position">
+                        <div id="names">
+                            <p>Стелла</p>
+                            <p>Корка</p>
+                            <p>Корка 110</p>
+                        </div>
+                        <div id="cost">
+                            <p>1400</p>
+                        </div>
+                    </div>
+
+                    <div class="position">
+                        <div id="names">
+                            <p>Тумба</p>
+                            <p>Односторонняя</p>
+                            <p>50*20*15 1ст</p>
+                        </div>
+                        <div id="cost">
+                            <p>1650</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="results">
+                    <h2>Итого:</h2>
+                    <p>Миллионы</p>                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>
